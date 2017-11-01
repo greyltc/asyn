@@ -37,7 +37,7 @@ CHECK_RELEASE = YES
 LINUX_GPIB=NO
 
 # If you have libusb-1.0 revision 16 or newer and want the USB TMC support set DRV_USBTMC=YES
-# NG3E: we need USB TMC
+# SHI: we need USB TMC
 DRV_USBTMC=YES
 
 # You can also define this on a per-architecture basis.  

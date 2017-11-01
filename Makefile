@@ -9,7 +9,7 @@ asyn_DEPEND_DIRS = configure
 DIRS += asyn/asynPortDriver/unittest
 asyn/asynPortDriver/unittest_DEPEND_DIRS = asyn
 
-# NG3E: do not build tests
+# SHI: do not build tests
 #ifneq ($(EPICS_LIBCOM_ONLY),YES)
 #  DIRS += testApp
 #  testApp_DEPEND_DIRS = asyn
