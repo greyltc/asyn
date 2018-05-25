@@ -54,3 +54,4 @@ USR_CFLAGS += -I/usr/include/tirpc
 USR_CFLAGS += -ltirpc
 USR_CXXFLAGS += -ltirpc
 USR_CPPFLAGS += -ltirpc
+USR_LDLIBS += -ltirpc
