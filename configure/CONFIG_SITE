@@ -51,4 +51,5 @@ DRV_USBTMC=YES
 
 # allow arch to find rpc/rpc.h
 USR_INCLUDES += -I/usr/include/tirpc
+USR_LDLIBS += -ltirpc
 
