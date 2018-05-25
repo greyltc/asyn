@@ -6,8 +6,8 @@ DIRS += makeSupport
 
 DIRS += asyn
 asyn_DEPEND_DIRS = configure
-DIRS += asyn/asynPortDriver/unittest
-asyn/asynPortDriver/unittest_DEPEND_DIRS = asyn
+#DIRS += asyn/asynPortDriver/unittest
+#asyn/asynPortDriver/unittest_DEPEND_DIRS = asyn
 
 # NG3E: do not build tests
 #ifneq ($(EPICS_LIBCOM_ONLY),YES)
