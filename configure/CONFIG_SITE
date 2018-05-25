@@ -51,4 +51,5 @@ DRV_USBTMC=YES
 
 # fix Arch rcp missing from glibc
 USR_CFLAGS += -I/usr/include/tirpc
-USR_CFLAGS += -ltirpc
+#USR_CFLAGS += -ltirpc
+USR_LDLIBS += -ltirpc
