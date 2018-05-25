@@ -30,6 +30,7 @@ else
 endif
 asyn_SYS_LIBS_WIN32 = ws2_32 winmm
 asyn_SYS_LIBS_cygwin32 = $(CYGWIN_RPC_LIB)
+asyn_SYS_LIBS = tirpc
 
 SRC_DIRS += $(ASYN)/asynDriver
 INC += asynDriver.h
