@@ -50,4 +50,4 @@ DRV_USBTMC=YES
 #EPICS_LIBCOM_ONLY=YES
 
 # fix Arch rcp missing from glibc
-USR_CFLAGS += -I/usr/lib/tirpc -Ltirpc
+USR_CFLAGS += -I/usr/include/tirpc -Ltirpc
