@@ -50,5 +50,4 @@ DRV_USBTMC=YES
 #EPICS_LIBCOM_ONLY=YES
 
 # allow arch to find rpc/rpc.h
-INC=-I/usr/include/tirpc
-
+INC += -I/usr/include/tirpc
